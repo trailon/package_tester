@@ -34,9 +34,9 @@ dependencies:
     git:
       url: https://github.com/trailon/dialog_service.git
   image_provider:
-  # git:
-      # url: https://github.com/trailon/image_provider.git
-    path: /Users/velikaancetinel/Desktop/Projeler/Paketler/image_provider
+    #git:
+      #url: https://github.com/trailon/image_provider.git
+      path: /Users/velikaancetinel/Desktop/Projeler/Paketler/image_provider
   focused_image_widget:
     git:
       url: https://github.com/CosmosExmo/focused_image_widget.git

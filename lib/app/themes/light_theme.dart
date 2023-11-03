@@ -3,6 +3,11 @@ import 'package:google_fonts/google_fonts.dart';
 
 final lightTheme = ThemeData(
   scaffoldBackgroundColor: const Color.fromARGB(255, 199, 203, 215),
+  colorScheme: ColorScheme.dark(
+    primary: Colors.red.shade700,
+    onPrimary: const Color.fromARGB(255, 231, 222, 222),
+    background: Colors.white60,
+  ),
   indicatorColor: const Color.fromARGB(255, 67, 96, 192),
   primaryColor: const Color.fromARGB(255, 67, 96, 192),
   floatingActionButtonTheme: const FloatingActionButtonThemeData(

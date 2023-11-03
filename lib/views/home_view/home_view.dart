@@ -38,7 +38,7 @@ class _ViewContent extends StatelessWidget {
         Center(
           child: ElevatedButton(
             onPressed: context.read<HomeViewModel>().pushToImageProviderView,
-            child: const Text('Image Provider Package Test'),
+            child: const Text('Go to Image Provider View'),
           ),
         ),
         const Spacer(

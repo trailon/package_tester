@@ -27,6 +27,12 @@ abstract class _$AppRouter extends RootStackRouter {
         child: const HomeView(),
       );
     },
+    ImageProviderViewRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const ImageProviderView(),
+      );
+    },
   };
 }
 
@@ -54,6 +60,20 @@ class HomeViewRoute extends PageRouteInfo<void> {
         );
 
   static const String name = 'HomeViewRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [ImageProviderView]
+class ImageProviderViewRoute extends PageRouteInfo<void> {
+  const ImageProviderViewRoute({List<PageRouteInfo>? children})
+      : super(
+          ImageProviderViewRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'ImageProviderViewRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }
